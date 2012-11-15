@@ -1,7 +1,7 @@
 import java.awt.*;
 
 public class Health {
-	
+	// Test
 	public static int playerHealth = 100;
 	public static boolean playerIsDead = false;
 	
