@@ -10,7 +10,7 @@ public class Tile {
 	public static int invCellSpace = 4;
 	public static int invBorderSpace = 4;
 	public static int invItemBorder = 3;
-	public static int maxMobs = 5;
+	public static int maxMobs = 7;
 	
 	//Blocks & Paintings
 	public static final int[] air = {-1,-1};
