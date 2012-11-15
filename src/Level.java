@@ -110,7 +110,7 @@ public class Level {
 				if(y > 80 && new Random().nextInt(100) < 80){
 					block[x][y].id = Tile.stone;
 				}
-				if(y > 69 && new Random().nextInt(100) < 70){
+				if(y > 69 && new Random().nextInt(100) < 69){
 					block[x][y].id = Tile.stone;
 				}
 				if(y > 60 && new Random().nextInt(100) < 35){
