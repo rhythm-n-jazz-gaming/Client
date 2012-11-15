@@ -34,10 +34,11 @@ public class Inventory {
 		invBar[3].id = Tile.jared;
 		invBar[4].id = Tile.wood;
 		invBar[5].id = Tile.stone;
-		invBag[0].id = Tile.coal;
-		invBag[1].id = Tile.lapiz;
-		invBag[2].id = Tile.redstone;
-		invBag[3].id = Tile.leaves;
+		invBag[0].id = Tile.leaves;
+		invBag[1].id = Tile.coal;
+		invBag[2].id = Tile.lapiz;
+		invBag[3].id = Tile.redstone;
+
 		
 	}
 	
