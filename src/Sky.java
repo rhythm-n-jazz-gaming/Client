@@ -1,9 +1,9 @@
 import java.awt.*;
 
 public class Sky {
-	public int day = 0;
-	public int night = 1;
-	public int time = day;
+	public static int day = 0;
+	public static int night = 1;
+	public static int time = day;
 	public int r1 = 70, g1 = 120, b1 = 230; // Day Colour
 	public int r2 = 15, g2 = 15, b2 = 80; // Night Colour
 	public int r = r1, g = g1, b = b1;

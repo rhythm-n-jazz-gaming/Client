@@ -13,9 +13,10 @@ public class Spawner implements Runnable {
 	
 	public void run() {
 		while(isRunning){
-			if(Component.mob.toArray().length < Tile.maxMobs){
-			spawnMob(new Red(new Random().nextInt((Level.worldW - 2) * Tile.tileSize) + Tile.tileSize + 30,50, Tile.tileSize, Tile.tileSize *2, Tile.mobRed));
-			}
+			if(Component.mob.toArray().length < Tile.maxMobs && Sky.time == Sky.night){
+					spawnMob(new Red(new Random().nextInt((Level.worldW - 2) * Tile.tileSize) + Tile.tileSize + 30,50, Tile.tileSize, Tile.tileSize *2, Tile.mobRed));
+					System.out.println("Mob Spawned");
+				}
 			try{
 				Thread.sleep(new Random().nextInt(8000) + 5000);
 			}catch(Exception e){}
