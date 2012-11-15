@@ -72,8 +72,14 @@ public class Level {
 			for(int x=0; x<block[0].length; x++){
 				try{
 				if(block[x+1][y].id == Tile.wood || block[x-1][y].id == Tile.wood){
-						if(block[x][y+1].id != Tile.earth){
+						if(block[x][y+1].id != Tile.earth && block[x][y+2].id != Tile.earth){
 							block[x][y].id = Tile.leaves;
+							if(block[x+1][y].id == Tile.air){
+							block[x+1][y].id = Tile.leaves;
+							}
+							if(block[x-1][y].id == Tile.air){
+							block[x-1][y].id = Tile.leaves;
+							}
 						}
 					}
 				if(block[x][y+1].id == Tile.wood && block[x][y-1].id == Tile.air){
