@@ -8,7 +8,7 @@ public class Mob extends DoubleRectangle {
 	public boolean isMoving = false;
 	public boolean isFalling = false;
 	
-	public double movementSpeed = 0.2;
+	public double movementSpeed = 0.5;
 	public double fallingSpeed = 1;
 	public double dir = movementSpeed;
 	public double jumpingSpeed = 1;
