@@ -17,7 +17,7 @@ public class Spawner implements Runnable {
 					spawnMob(new Red(new Random().nextInt((Level.worldW - 2) * Tile.tileSize) + Tile.tileSize + 30,50, Tile.tileSize, Tile.tileSize *2, Tile.mobRed));
 				}
 			try{
-				Thread.sleep(new Random().nextInt(8000) + 5000);
+				Thread.sleep(new Random().nextInt(15000) + 10000);
 			}catch(Exception e){}
 		}
 	}
