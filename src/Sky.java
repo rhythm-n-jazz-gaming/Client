@@ -7,7 +7,7 @@ public class Sky {
 	public int r1 = 70, g1 = 120, b1 = 230; // Day Colour
 	public int r2 = 15, g2 = 17, b2 = 85; // Night Colour
 	public int r = r1, g = g1, b = b1;
-	public int dayFrame = 0, dayTime= 10000;
+	public int dayFrame = 0, dayTime= 21000;
 	public int changeFrame = 0, changeTime = 4;
 	
 	public Sky(){
